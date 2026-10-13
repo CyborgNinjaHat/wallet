@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-wallet-background: #f2f2f7;
+  --color-wallet-muted: #929295;
+  --color-wallet-divider: #e5e5e8;
+  --color-wallet-blue: #007aff;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    background: var(--color-wallet-background);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
