@@ -1,5 +1,9 @@
 # Wallet
 
+## Live Demo
+
+[Live Demo →](https://wallet-so.netlify.app/)
+
 ## Scripts
 
 - `pnpm dev` — Start the development server.
